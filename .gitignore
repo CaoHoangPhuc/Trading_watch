@@ -53,3 +53,15 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Arduino / ESP32 build outputs
+build/
+*.bin
+*.partitions.bin
+*.bootloader.bin
+*.merged.bin
+*.uf2
+
+# Local logs
+logs/
+*.log
